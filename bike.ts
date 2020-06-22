@@ -15,7 +15,7 @@ class Bicicle{ // Bicicleta (Marca, modelo, tipo (passeio, mtb ou speed), tamanh
     }
     fullDescription():void{
         console.log(`
-        models: ${this.model}\n 
+        model: ${this.model}\n 
         fabricant: ${this.fabricant}\n
         number of gears: ${this.numGears}\n
         wheel size: ${this.wheelSize} mm\n

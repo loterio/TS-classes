@@ -5,7 +5,7 @@ var Bicicle = /** @class */ (function () {
         console.log("\n        a " + this.model + " made by " + this.fabricant + ".\n\n        this bike have " + this.numGears + " marchs. \n        ");
     };
     Bicicle.prototype.fullDescription = function () {
-        console.log("\n        models: " + this.model + "\n \n        fabricant: " + this.fabricant + "\n\n        number of gears: " + this.numGears + "\n\n        wheel size: " + this.wheelSize + " mm\n\n        body size: " + this.bodySize + " mm\n\n        have suspension? " + this.suspension + "\n\n        it's recomendable use it for " + this.kind + " style of cycling. \n        ");
+        console.log("\n        model: " + this.model + "\n \n        fabricant: " + this.fabricant + "\n\n        number of gears: " + this.numGears + "\n\n        wheel size: " + this.wheelSize + " mm\n\n        body size: " + this.bodySize + " mm\n\n        have suspension? " + this.suspension + "\n\n        it's recomendable use it for " + this.kind + " style of cycling. \n        ");
     };
     return Bicicle;
 }());
