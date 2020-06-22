@@ -5,9 +5,9 @@ class Cars{ // Carro (modelo, marca, ano, portas, tipo combustível, preço)
     doors: number; 
     kindFuel: string;
 
-    description(){
+    description():void{
         alert(`Do u have a ${this.model} produced by ${this.fabricant}.\n
-                Your car is moved with ${this.kindFuel}.`);
+               Your car is moved by ${this.kindFuel}.`);
     }
 }
 
@@ -16,3 +16,9 @@ myCar.model = "Opala";
 myCar.fabricant = "Chevrolet";
 myCar.kindFuel = "alcohol";
 console.log(myCar.description());
+
+let yourCar = new Cars();
+yourCar.model = "Chevette";
+yourCar.fabricant = "Volkswagen";
+yourCar.kindFuel = "gasoline";
+console.log(yourCar.description());
