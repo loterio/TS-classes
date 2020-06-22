@@ -8,7 +8,7 @@ var Laptop = /** @class */ (function () {
 }());
 var myOld = new Laptop();
 myOld.brand = "ASUS";
-myOld.model = "ultrabook 4";
+myOld.model = "Vivobook 4";
 myOld.screenSize = 15.4;
 myOld.processor = "Intel-i5 3540u";
 myOld.memoryROM = 500;
